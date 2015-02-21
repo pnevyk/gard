@@ -1,0 +1,36 @@
+{
+  "name": "gard",
+  "version": "0.0.1",
+  "description": "Proxy generator which protects passed object using given permissions",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nevyk/gard"
+  },
+  "keywords": [
+    "proxy",
+    "protect",
+    "object",
+    "permissions"
+  ],
+  "author": "Petr Nevyhoštěný <petr.nevyhosteny@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nevyk/gard/issues"
+  },
+  "homepage": "https://github.com/nevyk/gard",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.8.11",
+    "gulp-header": "^1.2.2",
+    "gulp-mocha": "^2.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "harmonize": "^1.33.7",
+    "harmony-reflect": "^1.1.1"
+  }
+}
